@@ -48,26 +48,27 @@ a:hover {
   justify-content: center;
   text-align: center;
   color: #fff;
-   font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.bi-microsoft-teams{
-   outline: none;
+.bi-microsoft-teams {
+  outline: none;
 }
-
 
 /* Button styles */
 
-.button-agend{
-    color: #000000;
-    font-family: "Poppins", sans-serif;
-    border-radius: 8px;
-    background: linear-gradient(90deg, #00E5FF, #0099FF);
-    border: none;
-    padding: 10px 15px;
+.button-agend {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #00e5ff, #0099ff);
+  border: none;
+  padding: 10px 15px;
 }
 
-
+.button-agend:hover {
+  filter: brightness(1.1);
+}
 
 @media (min-width: 1440px) {
   .navbar {
@@ -143,7 +144,7 @@ a:hover {
     width: 100%;
     display: block;
     padding: 12px;
-    background: rgba(255,255,255,0.08);
+    background: rgba(255, 255, 255, 0.08);
     border-radius: 10px;
   }
 
